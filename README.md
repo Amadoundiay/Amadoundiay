@@ -29,10 +29,10 @@ My goal is to leverage my technical expertise and hands-on experience in network
     <img src="https://img.shields.io/badge/-tcpdump-005571?&style=for-the-badge" />
 </div>
 
-### Endpoint
+### Endpoint Security
 <div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
+    <img src="https://img.shields.io/badge/-SYSMON-1E4B9A?&style=for-the-badge" />
+    <img src="https://img.shields.io/badge/-LIMACharlie-005F85?&style=for-the-badge" />
 </div>
 
 ### SIEM
