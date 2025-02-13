@@ -1,5 +1,5 @@
 # Hello, I'm Ahmadou N'diaye
-<a href="https:www.linkedin.com/in/ahmadoundiaye"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/ahmadoundiaye"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 I am a Computer Science Engineering student specializing in cybersecurity, with a strong focus on blue teaming and Security Operations Center (SOC) operations. Passionate about securing digital environments, I am dedicated to analyzing threats, detecting vulnerabilities, and strengthening defenses against cyberattacks.
 
