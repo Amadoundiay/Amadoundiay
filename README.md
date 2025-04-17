@@ -1,75 +1,63 @@
-# 👋 Hello, I'm Ahmadou N'diaye  
+# 👋 Hello, I'm Ahmadou N'diaye
+
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmadoundiaye)
 
-I’m a **Computer Science Engineering student** specializing in **Cybersecurity**, with a passion for **Blue Team operations** and **Security Operations Center (SOC)** environments. I’m driven by a mission to defend digital infrastructures through proactive monitoring, threat detection, and incident response.
+I'm a **Computer Science Engineering student** with a specialization in **Cybersecurity**. I’m passionate about **Blue Team operations**, **SOC environments**, and defending networks from evolving threats.
 
 ---
 
-## 🎯 Objective
+## 🎯 Career Objective
 
-To join a dynamic cybersecurity team as a **SOC Tier 1 Analyst**, where I can apply my skills in **network traffic analysis**, **log correlation**, and **endpoint monitoring** — while continuously learning and contributing to real-world security operations.
+To join a forward-thinking cybersecurity team as a **SOC Tier 1 Analyst**, where I can apply my skills in threat detection, log analysis, and network monitoring while continuing to learn and contribute to cyber defense missions.
 
 ---
 
 ## 💡 Skills
 
-### 🛡️ Core Security Competencies
-- Threat detection & analysis (SIEM, Suricata, Snort)
-- Incident response and triage procedures
-- Endpoint telemetry monitoring (Sysmon, LimaCharlie)
-- Network packet analysis using Wireshark & tcpdump
-- Active Directory environment monitoring and hardening
-- Log parsing, correlation, and threat hunting
+### 🛡️ Cybersecurity & Blue Teaming
+- Threat Detection & Rule Creation: `Snort`, `Suricata`, `YARA`
+- SIEM & Log Analysis: `Splunk`, `Wazuh`, `Sysmon`
+- Network Traffic Monitoring: `tcpdump`, `Wireshark`
+- Threat Intel & IOC Sharing: `MISP`
+- Endpoint Visibility: `LimaCharlie`, `Sysmon`
+- Windows Security & AD Hardening
 
-### ⚙️ Technical Proficiency
-- Operating Systems: Windows Server, Linux (Ubuntu, Kali)
-- Networking: TCP/IP, OSI Model, DNS, DHCP, NAT, VPN
-- Scripting: Bash, PowerShell basics
-- Lab Simulations: TryHackMe, home lab with virtual environments
-
-### 🔍 Tools Familiarity
-- SIEM Platforms: Splunk, Wazuh
-- IDS/IPS: Suricata, Snort
-- Packet Analysis: Wireshark, tcpdump
-- Endpoint Security: Sysmon, LimaCharlie
-- Brute Force Tools: Crowbar
+### ⚙️ Technical
+- OS: `Linux (Kali, Ubuntu)`, `Windows Server`
+- Networking: `TCP/IP`, `DNS`, `VPN`, `NAT`, `OSI`
+- Scripting: `Bash`, `PowerShell (basic)`
+- Lab Practice: VirtualBox, VMware, TryHackMe Labs
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠️ Tools
 
-### 🔐 Network Security
-<div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Snort-990000?&style=for-the-badge&logo=Snort&logoColor=white" />
-    <img src="https://img.shields.io/badge/-tcpdump-005571?&style=for-the-badge" />
-</div>
-
-### 🖥️ Endpoint Monitoring
-<div>
-    <img src="https://img.shields.io/badge/-SYSMON-1E4B9A?&style=for-the-badge" />
-    <img src="https://img.shields.io/badge/-LimaCharlie-005F85?&style=for-the-badge" />
-</div>
-
-### 📊 SIEM Platforms
-<div>
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Wazuh-4D4D4D?&style=for-the-badge&logo=wazuh&logoColor=white" />
-</div>
-
----
-
-## 📜 Certifications
-<div>
-    <img src="https://img.shields.io/badge/-ISC2%20CC-00AEEF?&style=for-the-badge&logo=ISC2&logoColor=white" />
-    <img src="https://img.shields.io/badge/-CCNA%20Routing%20%26%20Switching-1F8ACB?&style=for-the-badge&logo=Cisco&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Cisco%20CyberOps%20Associate-1F8ACB?&style=for-the-badge&logo=Cisco&logoColor=white" />
-</div>
+| Category          | Tools                                                                 |
+|-------------------|-----------------------------------------------------------------------|
+| 🔐 Network Security | ![Wireshark](https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white) ![Suricata](https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white) ![Snort](https://img.shields.io/badge/-Snort-990000?&style=for-the-badge&logo=Snort&logoColor=white) ![tcpdump](https://img.shields.io/badge/-tcpdump-005571?&style=for-the-badge) |
+| 🖥️ Endpoint Security | ![Sysmon](https://img.shields.io/badge/-SYSMON-1E4B9A?&style=for-the-badge) ![LimaCharlie](https://img.shields.io/badge/-LimaCharlie-005F85?&style=for-the-badge) |
+| 📊 SIEM & Threat Intel | ![Splunk](https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white) ![Wazuh](https://img.shields.io/badge/-Wazuh-4D4D4D?&style=for-the-badge&logo=wazuh&logoColor=white) ![MISP](https://img.shields.io/badge/-MISP-ff5e5e?&style=for-the-badge&logo=malwarebytes&logoColor=white) ![YARA](https://img.shields.io/badge/-YARA-404040?&style=for-the-badge) |
 
 ---
 
 ## 📁 Projects
 
-- 🔐 **Active Directory Project**: A hands-on lab simulating a Windows domain environment, including domain controller setup, user and group management, and security testing using tools like **Crowbar** and **Splunk**.  
-  [➡️ View on GitHub](https://github.com/Amadoundiay/Active-Directory-Project)
+### 🔐 [Active Directory Security Lab](https://github.com/Amadoundiay/Active-Directory-Project)
+> Built a Windows domain lab with user/group policies and security monitoring. Used **Crowbar** for attack simulation and **Splunk** for detection and event analysis.
+
+---
+
+## 📜 Certifications
+
+- 🛡️ **ISC2 CC – Certified in Cybersecurity**
+- 🧠 **CCNA Routing & Switching**
+- 🔍 **Cisco CyberOps Associate**
+
+---
+
+## 📫 Let’s Connect
+
+I'm open to collaborations and Blue Team-focused opportunities!
+
+- 🔗 [LinkedIn](https://www.linkedin.com/in/ahmadoundiaye)
+- 🌐 [GitHub](https://github.com/Amadoundiay)
