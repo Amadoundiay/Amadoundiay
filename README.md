@@ -50,8 +50,18 @@ Seeking an opportunity as a **SOC Tier 1 Analyst** where I can apply my skills i
 ## 📁 Featured Projects
 
 ### 🔐 [Active Directory Security Lab](https://github.com/Amadoundiay/Active-Directory-Project)
-> Built a **Windows domain lab** simulating **real-world attacks** and **defensive monitoring**.  
+> Built a **Windows domain lab** simulating **real-world attacks** and **defensive monitoring**.
 > Deployed **Crowbar** for attack simulation and **Splunk** for live event detection and log correlation.
+
+
+---
+
+
+### 🔐 [Azure Sentinel SOC Lab](https://github.com/Amadoundiay/Azure-Sentinel-SOC-Lab)
+> Developed a **SOC lab environment** using **Azure Sentinel** to monitor simulated threats.
+> Configured **analytics rules, workbooks, and automated playbooks** to detect and respond to attacks in real-time.
+> Deployed a **honeypot** (e.g., Cowrie) to attract attackers, ingested honeypot logs into Log Analytics, and used **KQL** to detect suspicious activity.
+> Implemented **enrichment** (iplocation, reverse DNS, WHOIS via external playbook) to identify attacker origin and created **attack maps** (country visualization) to monitor attack sources.
 
 ---
 
