@@ -1,4 +1,4 @@
-# 👋 Hey there, I'm Ahmadou N'diaye
+# 👋 Hi, I'm Ahmadou N'Diaye
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmadoundiaye)
 [![GitHub](https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Amadoundiay)
@@ -6,38 +6,38 @@
 
 ---
 
-🎓 **Cybersecurity Engineering Student** | 🛡️ **Aspiring SOC Analyst** | 🌐 **Blue Team Enthusiast**
+🎓 **Cybersecurity Engineering Student** | 🛡️ **Aspiring SOC Analyst** | 🌐 **Blue Team & Cloud Security Enthusiast**
 
-I specialize in **Blue Team operations**, **SOC environments**, and **network defense**.  
-My passion lies in defending systems through **threat detection**, **log analysis**, and **continuous improvement**.
+Passionate about defending systems and networks through **threat detection**, **log analysis**, and **automation of incident response workflows**. Skilled in SOC operations, cloud security, and hands-on threat hunting.
 
 ---
 
 ## 🎯 Career Objective
 
-Seeking an opportunity as a **SOC Tier 1 Analyst** where I can apply my skills in threat detection, log monitoring, and network defense — while growing into a stronger cybersecurity professional.
+Aspiring **SOC Analyst (Tier 1)** seeking opportunities to leverage my expertise in **threat detection, incident response, SIEM monitoring**, and **network defense**, while continuously advancing my cybersecurity skills and contributing to resilient enterprise security.
 
 ---
 
 ## 🛡️ Core Skills & Expertise
 
 ### 🧩 Blue Team & SOC Operations
-- **Threat Detection & Rules**: `Snort`, `Suricata`, `YARA`
-- **Log Management & SIEM**: `Splunk`, `Wazuh`, `Sysmon`
-- **Network Monitoring**: `Wireshark`, `tcpdump`
-- **Threat Intel & Collaboration**: `MISP`
-- **Endpoint Security**: `Sysmon`, `LimaCharlie`
-- **Active Directory Security**, **Windows Hardening**
+- **Threat Detection & Rules:** `Snort`, `Suricata`, `YARA`
+- **Log Management & SIEM:** `Splunk`, `Wazuh`, `Sysmon`
+- **Network Monitoring & Analysis:** `Wireshark`, `tcpdump`
+- **Threat Intelligence & Collaboration:** `MISP`
+- **Endpoint Security & AD Hardening:** `Sysmon`, `LimaCharlie`
+- **Incident Response Automation:** SOAR workflows (Shuffle)
 
 ### ⚙️ Technical Fundamentals
-- **Operating Systems**: `Linux (Kali, Ubuntu)`, `Windows Server`
-- **Networking Concepts**: `TCP/IP`, `VPN`, `DNS`, `NAT`, `OSI Model`
-- **Scripting**: `Bash`, `PowerShell (basic)`
-- **Labs & Virtualization**: `VirtualBox`, `VMware`, `TryHackMe`, Custom Labs
+- **OS & Networking:** `Linux (Kali, Ubuntu)`, `Windows Server`, TCP/IP, VPN, DNS, NAT, OSI Model
+- **Scripting & Automation:** `Python`, `Bash`, basic `PowerShell`
+- **Virtual Labs & Simulation:** `VirtualBox`, `VMware`, TryHackMe, custom lab setups
+- **Cloud Security:** `Azure Sentinel`, `Defender for Cloud`
+- **Threat Modeling:** MITRE ATT&CK Framework
 
 ---
 
-## 🧰 My Toolbox
+## 🧰 Tools & Toolbox
 
 | Area                 | Tools                                                                                                          |
 |----------------------|----------------------------------------------------------------------------------------------------------------|
@@ -50,36 +50,39 @@ Seeking an opportunity as a **SOC Tier 1 Analyst** where I can apply my skills i
 ## 📁 Featured Projects
 
 ### 🔐 [Active Directory Security Lab](https://github.com/Amadoundiay/Active-Directory-Project)
-> Built a **Windows domain lab** simulating **real-world attacks** and **defensive monitoring**.
-> Deployed **Crowbar** for attack simulation and **Splunk** for live event detection and log correlation.
-
-
----
-
+- Simulated **real-world AD attacks** and defensive monitoring in a Windows domain lab.
+- Deployed **Crowbar** for brute-force testing and **Splunk** for live event detection and log correlation.
+- Correlated logs with **MITRE ATT&CK** techniques for blue-team analysis.
 
 ### 🔐 [Azure Sentinel SOC Lab](https://github.com/Amadoundiay/Azure-Sentinel-SOC-Lab)
-> Developed a **SOC lab environment** using **Azure Sentinel** to monitor simulated threats.
-> Configured **analytics rules, workbooks, and automated playbooks** to detect and respond to attacks in real-time.
-> Deployed a **honeypot** (e.g., Cowrie) to attract attackers, ingested honeypot logs into Log Analytics, and used **KQL** to detect suspicious activity.
-> Implemented **enrichment** (iplocation, reverse DNS, WHOIS via external playbook) to identify attacker origin and created **attack maps** (country visualization) to monitor attack sources.
+- Built a **SOC lab using Azure Sentinel** to monitor simulated threats.
+- Configured **analytics rules, dashboards, and automated playbooks** to detect and respond in real-time.
+- Deployed a **honeypot**  to attract attacks; ingested logs into Log Analytics and used **KQL** to detect suspicious activity.
+- Implemented **enrichment workflows** (IP geolocation, reverse DNS, WHOIS) and generated **attack maps** to visualize threat sources.
+
+### 🔐 SOC Automation & Sysmon Lab
+- Collected **Sysmon logs** and integrated them into **Wazuh**.
+- Automated triage, enrichment, and alert escalation with **Shuffle SOAR** and threat intelligence feeds.
+- Detected credential-stealing tools and lateral movement activity in lab simulations.
 
 ---
 
 ## 📜 Certifications
 
-- 🛡️ **ISC2 CC — Certified in Cybersecurity**
-- 🌐 **Cisco CCNA — Routing & Switching**
+- 🛡️ **(ISC)² Certified in Cybersecurity (CC)**
+- 🌐 **Cisco CCNA – Routing & Switching**
+- 🖥️ **TryHackMe SOC Level 1**
+- 🛠️ **CompTIA Security+ (In Progress)**
 
 ---
 
 ## 🤝 Let's Connect!
 
-- 🌐 [GitHub](https://github.com/Amadoundiay)
-- 💼 [LinkedIn](https://www.linkedin.com/in/ahmadoundiaye)
-- ✍️ [Medium](https://medium.com/@ndiayeahmadou911)
-- ✉️ Always open to **SOC Analyst internships**, **cybersecurity projects**, and **collaborative Blue Team work**!
+- 🌐 [GitHub](https://github.com/Amadoundiay)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/ahmadoundiaye)  
+- ✍️ [Medium](https://medium.com/@ndiayeahmadou911)  
+- ✉️ Open to **SOC Analyst internships, cybersecurity projects, and collaborative blue team work**.
 
 ---
 
 > 💬 *"Defending networks is not just a job — it's a mission."*
-
