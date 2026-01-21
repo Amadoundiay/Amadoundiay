@@ -6,64 +6,163 @@
 
 ---
 
-🎓 **Cybersecurity Engineering Student** | 🛡️ **Aspiring SOC Analyst** | 🌐 **Blue Team & Cloud Security Enthusiast**
+🎓 **Cybersecurity Engineering Student**  
+🛡️ **Aspiring SOC Analyst (Blue Team)**  
+☁️ **DFIR • Threat Hunting • Cloud Security**
 
-Passionate about defending systems and networks through **threat detection**, **log analysis**, and **automation of incident response workflows**. Skilled in SOC operations, cloud security, and hands-on threat hunting.
+I focus on **defensive cybersecurity** with a strong interest in **how attacks unfold in real environments** and how defenders can **detect, investigate, and respond** effectively.
+
+My work blends:
+- **Hands-on labs**
+- **Threat-hunting investigations**
+- **DFIR-style reporting**
+- **Detection engineering thinking**
+
+I aim to think and write like a **SOC analyst and incident responder**, not just solve labs.
+
+---
+
+## 🧭 Professional Philosophy
+
+> *Security is not about tools — it’s about visibility, context, and decision-making under pressure.*
+
+I approach cybersecurity from an **analyst mindset**:
+- Start with logs, not assumptions
+- Reconstruct attacker behavior step by step
+- Focus on **what can be detected, when, and how**
+- Translate technical findings into **clear, actionable reports**
 
 ---
 
 ## 🎯 Career Objective
 
-Aspiring **SOC Analyst (Tier 1)** seeking opportunities to leverage my expertise in **threat detection, incident response, SIEM monitoring**, and **network defense**, while continuously advancing my cybersecurity skills and contributing to resilient enterprise security.
+Aspiring **SOC Analyst (Tier 1)** seeking opportunities to contribute to:
+- Continuous security monitoring and alert triage  
+- Threat hunting using SIEM and endpoint telemetry  
+- Incident response and post-incident analysis  
+- Detection improvement through lessons learned  
+
+Long-term goal: grow into **SOC Tier 2 / DFIR / Detection Engineering** roles.
 
 ---
 
 ## 🛡️ Core Skills & Expertise
 
-### 🧩 Blue Team & SOC Operations
+### 🔵 Blue Team & SOC Operations
 - **Threat Detection & Rules:** `Snort`, `Suricata`, `YARA`
-- **Log Management & SIEM:** `Splunk`, `Wazuh`, `Sysmon`
-- **Network Monitoring & Analysis:** `Wireshark`, `tcpdump`
-- **Threat Intelligence & Collaboration:** `MISP`
-- **Endpoint Security & AD Hardening:** `Sysmon`, `LimaCharlie`
-- **Incident Response Automation:** SOAR workflows (Shuffle)
+- **SIEM & Log Analysis:** `Splunk`, `Wazuh`, `Sysmon`, `Microsoft Sentinel`
+- **Threat Hunting:** KQL-based investigations, hypothesis-driven hunting
+- **Endpoint & AD Security:** `Sysmon`, `LimaCharlie`, Active Directory visibility
+- **Incident Response & DFIR:** Timeline reconstruction, IOC scoping, attacker tradecraft analysis
+- **SOAR & Automation:** Shuffle playbooks, enrichment pipelines
 
-### ⚙️ Technical Fundamentals
-- **OS & Networking:** `Linux (Kali, Ubuntu)`, `Windows Server`, TCP/IP, VPN, DNS, NAT, OSI Model
+### ⚙️ Technical Foundations
+- **Operating Systems & Networking:**  
+  `Linux (Kali, Ubuntu)`, `Windows Server`, TCP/IP, DNS, VPN, NAT, OSI Model
 - **Scripting & Automation:** `Python`, `Bash`, basic `PowerShell`
-- **Virtual Labs & Simulation:** `VirtualBox`, `VMware`, TryHackMe, custom lab setups
-- **Cloud Security:** `Azure Sentinel`, `Defender for Cloud`
+- **Virtualization & Lab Engineering:** `VirtualBox`, `VMware`, custom AD & SOC labs
+- **Cloud Security:** `Microsoft Sentinel`, `Defender for Cloud`
 - **Threat Modeling:** MITRE ATT&CK Framework
 
 ---
 
-## 🧰 Tools & Toolbox
+## 🧰 Tools & Platforms
 
-| Area                 | Tools                                                                                                          |
-|----------------------|----------------------------------------------------------------------------------------------------------------|
-| 🔐 **Network Security**     | ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=Wireshark&logoColor=white) ![Suricata](https://img.shields.io/badge/Suricata-EF3B2D?style=for-the-badge&logo=Suricata&logoColor=white) ![Snort](https://img.shields.io/badge/Snort-990000?style=for-the-badge&logo=Snort&logoColor=white) ![tcpdump](https://img.shields.io/badge/tcpdump-005571?style=for-the-badge) |
-| 🖥️ **Endpoint Security**   | ![Sysmon](https://img.shields.io/badge/SYSMON-1E4B9A?style=for-the-badge) ![LimaCharlie](https://img.shields.io/badge/LimaCharlie-005F85?style=for-the-badge) |
-| 📊 **SIEM & Intel Sharing** | ![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=Splunk&logoColor=white) ![Wazuh](https://img.shields.io/badge/Wazuh-4D4D4D?style=for-the-badge) ![MISP](https://img.shields.io/badge/MISP-ff5e5e?style=for-the-badge&logo=malwarebytes&logoColor=white) ![YARA](https://img.shields.io/badge/YARA-404040?style=for-the-badge) |
+| Domain | Tools |
+|------|------|
+| 🔐 Network Security | Wireshark, Suricata, Snort, tcpdump |
+| 🖥️ Endpoint Security | Sysmon, LimaCharlie |
+| 📊 SIEM & Detection | Splunk, Wazuh, Microsoft Sentinel |
+| 🧠 Threat Intel | MISP, YARA |
+| 🤖 Automation | Shuffle SOAR |
 
 ---
 
-## 📁 Featured Projects
+## 📁 Selected Work & Projects
 
-### 🔐 [Active Directory Security Lab](https://github.com/Amadoundiay/Active-Directory-Project)
-- Simulated **real-world AD attacks** and defensive monitoring in a Windows domain lab.
-- Deployed **Crowbar** for brute-force testing and **Splunk** for live event detection and log correlation.
-- Correlated logs with **MITRE ATT&CK** techniques for blue-team analysis.
+### 🔐 Active Directory Security Lab
+📂 [Repository](https://github.com/Amadoundiay/Active-Directory-Project)
 
-### 🔐 [Azure Sentinel SOC Lab](https://github.com/Amadoundiay/Azure-Sentinel-SOC-Lab)
-- Built a **SOC lab using Azure Sentinel** to monitor simulated threats.
-- Configured **analytics rules, dashboards, and automated playbooks** to detect and respond in real-time.
-- Deployed a **honeypot**  to attract attacks; ingested logs into Log Analytics and used **KQL** to detect suspicious activity.
-- Implemented **enrichment workflows** (IP geolocation, reverse DNS, WHOIS) and generated **attack maps** to visualize threat sources.
+- Designed a **realistic Windows Active Directory environment**
+- Simulated attacker behaviors such as:
+  - Credential abuse
+  - Lateral movement
+  - Privilege escalation
+- Built **Splunk detections** mapped to **MITRE ATT&CK**
+- Focused on **visibility gaps and detection opportunities**
 
-### 🔐 SOC Automation & Sysmon Lab
-- Collected **Sysmon logs** and integrated them into **Wazuh**.
-- Automated triage, enrichment, and alert escalation with **Shuffle SOAR** and threat intelligence feeds.
-- Detected credential-stealing tools and lateral movement activity in lab simulations.
+> Objective: understand *how AD attacks look from the defender’s side*.
+
+---
+
+### ☁️ Azure Sentinel SOC Lab
+📂 [Repository](https://github.com/Amadoundiay/Azure-Sentinel-SOC-Lab)
+
+- Built a **cloud-native SOC lab using Microsoft Sentinel**
+- Created:
+  - Analytics rules
+  - Dashboards
+  - KQL threat-hunting queries
+- Deployed a **honeypot** to collect real attack telemetry
+- Implemented enrichment (GeoIP, WHOIS, reverse DNS)
+- Produced **SOC-style reports and attack visualizations**
+
+> Objective: develop **SIEM fluency and investigation discipline**.
+
+---
+
+### 🤖 SOC Automation & Endpoint Telemetry Lab
+- Centralized **Sysmon logs** into **Wazuh**
+- Automated triage and enrichment using **Shuffle SOAR**
+- Detected:
+  - Credential dumping behaviors
+  - Suspicious process chains
+  - Lateral movement patterns
+- Reduced alert fatigue through **workflow-driven response**
+
+> Objective: explore how automation supports analysts, not replaces them.
+
+---
+
+## 📊 DFIR & Incident Analysis Reports
+
+I maintain **structured DFIR-style reports** inspired by real-world incident response publications (DFIR Report, Mandiant, Microsoft IR).
+
+### 🧪 DFIR Case Study (CTF-Based)
+📂 [DFIR-CTF-NHS-Spine-Ransomware](https://github.com/Amadoundiay/DFIR-CTF-NHS-Spine-Ransomware)
+
+- End-to-end investigation of a **phishing-led ransomware intrusion**
+- Focus on **attacker behavior**, not exploitation
+- Evidence-driven analysis using **Microsoft Sentinel & KQL**
+- Includes:
+  - Executive summary
+  - Attack timeline
+  - Phase-by-phase analysis
+  - IOC scoping
+  - Detection opportunities
+
+> This report demonstrates **how I think as an analyst**, not just how I solve challenges.
+
+### 📘 Ongoing & Future Reports
+- Phishing intrusion analyses  
+- Credential theft & lateral movement case studies  
+- Cloud & hybrid environment attack simulations  
+- Detection engineering write-ups  
+
+> Goal: build a **public portfolio of DFIR-quality investigations**.
+
+---
+
+## ✍️ Technical Writing & Knowledge Sharing
+
+- I publish **security write-ups and analysis articles** on Medium
+- Focus areas:
+  - SOC fundamentals
+  - Threat hunting methodology
+  - Detection logic explained clearly
+  - Lessons learned from labs and incidents
+
+> Writing helps me **solidify understanding** and communicate clearly — a critical SOC skill.
 
 ---
 
@@ -76,13 +175,14 @@ Aspiring **SOC Analyst (Tier 1)** seeking opportunities to leverage my expertise
 
 ---
 
-## 🤝 Let's Connect!
+## 🤝 Let’s Connect
 
-- 🌐 [GitHub](https://github.com/Amadoundiay)  
 - 💼 [LinkedIn](https://www.linkedin.com/in/ahmadoundiaye)  
+- 🌐 [GitHub](https://github.com/Amadoundiay)  
 - ✍️ [Medium](https://medium.com/@ndiayeahmadou911)  
-- ✉️ Open to **SOC Analyst internships, cybersecurity projects, and collaborative blue team work**.
+
+📩 Open to **SOC Analyst internships**, **DFIR research**, and **blue team collaboration**.
 
 ---
 
-> 💬 *"Defending networks is not just a job — it's a mission."*
+> 💬 *"Strong defense starts with understanding the attacker — and ends with better detection."*
