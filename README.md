@@ -1,44 +1,80 @@
 <div align="center">
 
-# 🔬 SOC-Investigation-Labs
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║   AHMADOU N'DIAYE  ·  BLUE TEAM  ·  DFIR  ·  DETECTION ENGINEERING  ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
 
-*Threat detection exercises written to analyst standards*
-
-[![Author](https://img.shields.io/badge/Ahmadou%20N'Diaye-0072b1?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/ahmadoundiaye)
-[![MITRE](https://img.shields.io/badge/MITRE%20ATT%26CK-mapped-red?style=flat-square)](https://attack.mitre.org)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0072b1?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmadoundiaye)
+[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ndiayeahmadou911)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com)
 
 </div>
 
 ---
 
-These are not walkthroughs. Every lab is treated as a real incident — evidence collected, behavior reconstructed, detection gaps documented, and findings written up the way a SOC analyst would hand them to a team lead.
+I didn't wait for opportunity. I built the environment, ran the simulations, broke things intentionally, and reverse-engineered why. No shortcuts — just thousands of hours of deliberate practice, log analysis, and failed detections that eventually became good ones.
 
-Each report lives on Notion with full technical depth. What's here is the case file.
+I don't treat security as a certification track. I treat it as a discipline — one that demands **methodical thinking, forensic precision, and the ability to communicate findings clearly under pressure**. Every investigation I complete is held to the standard of the analysts I study: DFIR Report, Mandiant, Microsoft DART.
 
----
+The work in my repositories reflects that standard. Not aspirationally — demonstrably.
 
-## Labs
-
-### 🧪 Lab 01 — Phishing Investigation
-📋 [Full Report →](https://www.notion.so/Phishing-Investigation-2f0169bd8bbf80319184c52f0244ef35)
-
-A user executes a malicious attachment. This investigation doesn't stop at identifying the email — it follows every artifact from delivery through execution, persistence, and early post-exploitation. The goal: document every detection opportunity that existed but wasn't caught.
-
-`Splunk` `Sysmon` `Windows Event Logs` `MITRE T1566 → T1053`
+```
+  LOG FIRST.       Not assumptions.
+  RECONSTRUCT.     Behavior, not just indicators.
+  DETECT.          What, when, and how — not just if.
+  COMMUNICATE.     Technical precision, executive clarity.
+```
 
 ---
 
-### 🧪 Lab 02 — Business Email Compromise (BEC) Investigation
-📋 [Full Report →](https://www.notion.so/Business-Email-Compromise-Investigation-300169bd8bbf80d09d62fe6362f561a4)
+## What I Build & Investigate
 
-No malware. No hashes. No lateral file transfers. Just an attacker living inside a trusted identity, manipulating mailbox rules and intercepting communications. This lab focuses on the hardest SOC problem: detecting malicious behavior that looks exactly like legitimate user activity.
+<table>
+<tr>
+<td width="50%">
 
-`Microsoft Sentinel` `KQL` `Azure AD Audit Logs` `Identity-based detection`
+### 🔬 SOC Investigation Labs
+Structured threat detection exercises written to analyst standards.
+
+- Phishing intrusion chain reconstruction
+- Business Email Compromise (BEC) forensics
+- Behavioral detection without traditional IOCs
+
+📂 **[SOC-Investigation-Labs →](https://github.com/Amadoundiay/SOC-Investigation-Labs)**
+
+</td>
+<td width="50%">
+
+### 🚨 DFIR Incident Reports
+Professional-grade forensic investigations of real-scenario intrusions.
+
+- *"Paging Dr. Warlock"* — AD domain compromise, 41 alerts, access broker TTPs
+- *NHS Spine Ransomware* — full double-extortion chain, sub-2hr dwell time
+
+📂 **[DFIR-Incident-Reports →](https://github.com/Amadoundiay/DFIR-Incident-Reports)**
+
+</td>
+</tr>
+</table>
+
+---
+
+## Core Stack
+
+`Splunk` `Microsoft Sentinel` `Wazuh` `KQL` `Sysmon` `Suricata` `YARA` `LimaCharlie` `Shuffle SOAR` `Python` `Bash` `PowerShell` `Active Directory` `MITRE ATT&CK`
+
+---
+
+## Certifications
+
+`(ISC)² CC` &nbsp;·&nbsp; `TryHackMe SOC Level 1` &nbsp;·&nbsp; `CompTIA Security+ *(in progress)*`
 
 ---
 
 <div align="center">
 
-← Back to [Profile](https://github.com/Amadoundiay) &nbsp;·&nbsp; DFIR Reports → [DFIR-Incident-Reports](https://github.com/Amadoundiay/DFIR-Incident-Reports)
+📩 Open to **SOC Analyst** and **DFIR** opportunities — [let's talk](https://www.linkedin.com/in/ahmadoundiaye).
 
 </div>
