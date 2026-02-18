@@ -42,7 +42,7 @@ Structured threat detection exercises written to analyst standards.
 - Business Email Compromise (BEC) forensics
 - Behavioral detection without traditional IOCs
 
-📂 **[SOC-Investigation-Labs →](https://github.com/Amadoundiay/SOC-Investigation-Labs)**
+📂 **[SOC-Investigation-Labs →](https://github.com/Amadoundiay/SOC-Labs)**
 
 </td>
 <td width="50%">
@@ -53,7 +53,7 @@ Professional-grade forensic investigations of real-scenario intrusions.
 - *"Paging Dr. Warlock"* — AD domain compromise, 41 alerts, access broker TTPs
 - *NHS Spine Ransomware* — full double-extortion chain, sub-2hr dwell time
 
-📂 **[DFIR-Incident-Reports →](https://github.com/Amadoundiay/DFIR-Incident-Reports)**
+📂 **[DFIR-Incident-Reports →](https://github.com/Amadoundiay/DFIR-Report)**
 
 </td>
 </tr>
