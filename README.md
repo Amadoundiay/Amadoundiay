@@ -180,7 +180,6 @@ Every investigation follows a structured, evidence-first approach:
 | Credential | Status |
 |-----------|--------|
 | CompTIA Security+ | ✅ Completed |
-| MyDFIR SOC Accelerator | ✅ Day 87+ |
 | EY Cybersecurity Internship | 🔄 Active |
 | GCIH (GIAC Certified Incident Handler) | 🎯 Target |
 
