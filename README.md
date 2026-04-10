@@ -12,6 +12,8 @@
 [![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ndiayeahmadou911)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/ahmadoundiaye)
 
+![Profile Views](https://komarev.com/ghpvc/?username=Amadoundiay&color=brightgreen&style=for-the-badge)
+
 </div>
 
 ---
@@ -33,14 +35,25 @@ The work in these repositories reflects that standard. Not aspirationally — de
 
 ---
 
-## Recent Investigations
+## 🔴 Recent Investigations
 
 <table>
 <tr>
 <td width="50%">
 
+### 🔴 MTS — High CPU Spike & Credential Stuffing Operation
+**Multi-objective attack** on a Domain Controller disguised as a performance issue.
+Cryptomining via Monero. LSASS credential dump via renamed Mimikatz function. Six malicious binaries deployed in **under two minutes**. Seven persistence mechanisms across services and scheduled tasks. LogonID correlation used to reconstruct the full attack session.
+
+`Microsoft Sentinel` `KQL` `LogonID Correlation` `DeviceEvents` `VirusTotal`
+
+📄 [Investigation Report →](https://www.notion.so/Investigation-Report-HIGH-CPU-Observed-333169bd8bbf803aa323fecaaee4b21f)
+
+</td>
+<td width="50%">
+
 ### 🔴 KCD-Web — Pre-Ransomware Staging
-**22-day compromise** of a healthcare provider.  
+**22-day compromise** of a healthcare provider.
 Two threat actors. LSASS credential dump. Java RDP brute forcer disguised as `svchost.exe`. Fake installer deploying a persistent beacon that ran for **55+ hours** before the ransomware command arrived.
 
 Caught during staging. Encryption never executed.
@@ -50,10 +63,23 @@ Caught during staging. Encryption never executed.
 📄 [Investigation Report →](https://www.notion.so/Investigation-Report-322169bd8bbf8090a2fae1afa6a30962)
 
 </td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🔴 MTS Ransomware — Double Extortion Operation
+**Multi-stage ransomware** with Neshta file infection across mts-contractorpc1.
+sfx-i386-amd64.exe master dropper delivering complete attack toolkit. Neshta spreading to every executable within minutes. BitLocker suspended, VHDs dismounted, all recovery destroyed. **Five days of staging** before encryption triggered on March 30.
+
+`Microsoft Sentinel` `KQL` `FileRenamed Analysis` `Neshta` `pay2key`
+
+📄 Investigation Report — In Progress
+
+</td>
 <td width="50%">
 
 ### 🔴 Warlock CTF — AD Domain Compromise *(1st Place)*
-**Full domain compromise** from a single phishing event.  
+**Full domain compromise** from a single phishing event.
 KeePass database harvested. WDigest enabled for cleartext credentials. DC and backup server compromised. Shadow copies deleted. `warlock.exe` deployed across multiple systems simultaneously.
 
 `Splunk` `Active Directory` `Event Log Analysis` `Lateral Movement Tracing`
@@ -76,7 +102,7 @@ Threat actor used a compromised server as a **pivot point** to test **277,000+ s
 <td width="50%">
 
 ### 🟠 TA577 — Malware Analysis
-End-to-end analysis of a malicious ZIP attributed to **TA577**.  
+End-to-end analysis of a malicious ZIP attributed to **TA577**.
 JavaScript stager → DLL download from 3 attacker-controlled domains → process injection into `SearchProtocolHost.exe` → C2 beaconing every 3 minutes.
 
 `Static Analysis` `Dynamic Analysis` `CAPA` `ANY.RUN` `VirusTotal`
@@ -89,7 +115,23 @@ JavaScript stager → DLL download from 3 attacker-controlled domains → proces
 
 ---
 
-## What I Build
+## 📊 Investigation Stats
+
+<div align="center">
+
+| Metric | Value |
+|--------|-------|
+| 🔴 Critical Investigations Completed | 5 |
+| 🛠️ DFIR Techniques Mastered | 15+ |
+| 📋 MITRE ATT&CK Techniques Documented | 30+ |
+| 🔎 Telemetry Sources Pivoted Across | 7 |
+| 🏆 CTF Placements | 1st Place (Warlock) |
+
+</div>
+
+---
+
+## 🛠️ What I Build
 
 <table>
 <tr>
@@ -132,7 +174,7 @@ Custom Sysmon configurations and Wazuh detection rules built from real attack si
 
 ---
 
-## Core Stack
+## ⚙️ Core Stack
 
 <div align="center">
 
@@ -146,7 +188,7 @@ Custom Sysmon configurations and Wazuh detection rules built from real attack si
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
 ![Sysmon](https://img.shields.io/badge/Sysmon-0078D4?style=flat-square&logo=windows&logoColor=white)
-![KAPE](https://img.shields.io/badge/KAPE-grey?style=flat-square)
+![KAPE](https://img.shields.io/badge/KAPE-555555?style=flat-square)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
 ![YARA](https://img.shields.io/badge/YARA-FF6B35?style=flat-square)
 ![Suricata](https://img.shields.io/badge/Suricata-EF3B2D?style=flat-square)
@@ -157,7 +199,7 @@ Custom Sysmon configurations and Wazuh detection rules built from real attack si
 
 ---
 
-## Investigation Methodology
+## 🔍 Investigation Methodology
 
 Every investigation follows a structured, evidence-first approach:
 
@@ -175,7 +217,18 @@ Every investigation follows a structured, evidence-first approach:
 
 ---
 
-## Certifications & Training
+## 🏆 Key Techniques
+
+| Technique | Application |
+|-----------|------------|
+| **LogonID Correlation** | Connect entire attacker session across telemetry sources in one query |
+| **Process GUID Pivoting** | Track full attack chain through legitimate parent processes |
+| **BAM Registry Analysis** | Recover execution artifacts after Sysmon termination |
+| **Cross-Investigation Correlation** | Link threat actor infrastructure across multiple incidents |
+
+---
+
+## 📜 Certifications & Training
 
 | Credential | Status |
 |-----------|--------|
@@ -185,14 +238,20 @@ Every investigation follows a structured, evidence-first approach:
 
 ---
 
+## 🌍 Community
+
+**MyDFIR Community — Moderator** 
+Active contributor to the SOC and DFIR community — presenting live investigation walkthroughs, mentoring analysts on methodology, and running collaborative investigation exercises to build communication and reporting skills alongside technical depth.
+
+
 ---
 
 <div align="center">
 
-**Currently interning at EY Cybersecurity Division**  
+**Currently interning at EY Cybersecurity Division**
 Building a production-grade Compromise Assessment Solution
 
-📩 Open to **SOC Analyst** and **DFIR** opportunities  
+📩 Open to **SOC Analyst** and **DFIR** opportunities — remote roles in 🇫🇷 France · 🇬🇧 UK · 🇺🇸 US
 [Let's connect →](https://www.linkedin.com/in/ahmadoundiaye)
 
 </div>
