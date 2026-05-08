@@ -73,7 +73,7 @@ sfx-i386-amd64.exe master dropper delivering complete attack toolkit. Neshta spr
 
 `Microsoft Sentinel` `KQL` `FileRenamed Analysis` `Neshta` `pay2key`
 
-📄 Investigation Report — In Progress
+📄 [Investigation Report →](https://www.notion.so/CONFIDENTIAL-Incident-Response-Report-342169bd8bbf80e6b254f5a3b8a8d6d0)
 
 </td>
 <td width="50%">
