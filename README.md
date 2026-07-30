@@ -155,10 +155,25 @@ Structured threat detection exercises covering phishing forensics, BEC analysis,
 <tr>
 <td width="50%">
 
-### 🛡️ Compromise Assessment Solution *(EY Internship)*
-Building a full compromise assessment platform at EY — automated forensic collection via KAPE, detection engineering with Wazuh and custom Sysmon rules, AI-assisted analysis layer, and a React findings dashboard.
+### 🛡️  IRIS(Incident Response Intelligence System) - Compromise Assessment Solution *(EY Internship)
 
-`Wazuh` `KAPE` `Sysmon` `Anthropic Claude` `React` `Atomic Red Team`
+Automated compromise assessment platform reducing forensic investigation 
+time from 4 hours to under 20 minutes.
+
+## What it does
+- Collects 8 forensic artifact types via KAPE
+- Applies 55 MITRE ATT&CK detection rules across Windows and Linux
+- AI-powered attack chain reconstruction via Claude API
+- Generates technical and executive reports automatically
+- Cross-platform dashboard with SQLite case management
+
+## Detection results
+| Scenario       | Findings | Critical | Detection Rate |
+|----------------|----------|----------|----------------|
+| Ransomware     | 336      | 81       | 92%            |
+| Credential Theft | 86     | 18       | 88%            |
+| APT Simulation | 278      | 103      | 92%            |
+| Linux Persistence | 18    | 8        | 85%            |
 
 </td>
 <td width="50%">
